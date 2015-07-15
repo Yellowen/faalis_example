@@ -1,8 +1,15 @@
 Rails.application.routes.draw do
+
   mount Faalis::Engine => '/'
-  Faalis::Routes.define_api_routes do
-    # Define your API routes here . . .
+
+  in_dashboard do
+
   end
+
+  api_routes do
+
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
