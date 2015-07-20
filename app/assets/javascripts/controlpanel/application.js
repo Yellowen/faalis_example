@@ -11,7 +11,7 @@
 // about supported directives.
 //
 /// From Faalis -----------------------------
-//= require faalis/angular-manifest
+//= require faalis/dashboard/application
 
 
 /// From Dashstrap
